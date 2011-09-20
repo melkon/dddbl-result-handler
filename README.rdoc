@@ -1,0 +1,23 @@
+Additional Result Handler for DDDBL to make it compatible with the PHP-version
+
+IMPORTANT NOTE:
+RDBI will change the way Result Driver are implemented in the next release. 
+The Result Handler are written against the master-branch, so will work with the next release
+BUT NOT with the current 0.9.1
+
+If you're using bundler, it will be instructed to install the git-master branch of RDBI.
+
+See: https://github.com/melkon/dddbl for more information
+
+== Bughunting was successful!
+
+Just report the bug through github's tracker: https://github.com/melkon/dddbl-result-handler/issues
+
+== I'd like to patch and / or help maintain DDDBL. How can I?
+
+* Fork the project: http://github.com/melkon/dddbl-result-handler
+* Make your feature addition or bug fix.
+
+== Copyright
+
+Copyright (c) 2011 André Gawron. See LICENSE for details.
