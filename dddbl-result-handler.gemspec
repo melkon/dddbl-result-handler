@@ -4,7 +4,7 @@ require "dddbl-result-handler/version"
 
 Gem::Specification.new do |s|
   s.name        = "dddbl-result-handler"
-  s.version     = DDDBL::Result::Handler::VERSION
+  s.version     = "0.0.1.alpha"
   s.authors     = ["André Gawron"]
   s.email       = ["andre@ziemek.de"]
   s.homepage    = "https://github.com/melkon/dddbl-result-handler"
@@ -20,8 +20,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.requirements << "FYI: RDBI <= 0.9.1 is incompatible, use their github master branch instead"
-
-  s.add_runtime_dependency "dddbl"
 
   s.add_development_dependency "test-unit"
   s.add_development_dependency "rdbi-driver-mock"

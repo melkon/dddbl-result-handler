@@ -1,7 +1,5 @@
 require 'rdbi'
 
-require 'dddbl-result-handler/version'
-
 class RDBI::Result::Driver::SINGLE_VALUE < RDBI::Result::Driver
   def format_single_row(raw)
     return nil if raw.empty?
